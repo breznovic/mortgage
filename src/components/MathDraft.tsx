@@ -10,3 +10,5 @@ const calculateMonthlyPayment = () => {
     const monthlyPayment = calculateMonthlyPayment();
     dispatch(setMonthlyPayment(monthlyPayment));
   }, [loanAmount, interestRate, loanTerm, dispatch]); */
+
+

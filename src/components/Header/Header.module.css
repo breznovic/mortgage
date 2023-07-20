@@ -1,0 +1,14 @@
+.headerWrapper {
+  background-color: rgb(21, 17, 233);
+  padding: 6px 10px 18px;
+}
+
+.header {
+  font-size: 60px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #5016ee, #beabd4);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin: 30px 0px 0px 40px;
+}

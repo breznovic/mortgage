@@ -1,7 +1,16 @@
-import s from "./App.module.css";
+import Header from "./components/Header/Header";
+import Input from "./utils/Input/Input";
 
 function App() {
-  return <div className={s.header}>Test</div>;
+  return (
+    <>
+      <Header />
+      <div>
+        <Input placeholder="City"/>
+        <Input placeholder="Type of real property"/>
+      </div>
+    </>
+  );
 }
 
 export default App;
