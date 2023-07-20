@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import Input from "./utils/Input/Input";
+import Slider from "./utils/Slider/Slider";
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
       <div>
         <Input placeholder="City"/>
         <Input placeholder="Type of real property"/>
+      </div>
+      <div>
+        <Slider/>
+        <Slider/>
       </div>
     </>
   );
