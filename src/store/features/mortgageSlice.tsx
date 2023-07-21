@@ -5,6 +5,8 @@ type MortgageType = {
   interestRate: number;
   loanTerm: number;
   monthlyPayment: number;
+  costOfRealEstate: number;
+  firstPayment: number
 };
 
 const initialState: MortgageType = {
@@ -12,6 +14,8 @@ const initialState: MortgageType = {
   interestRate: 0,
   loanTerm: 0,
   monthlyPayment: 0,
+  costOfRealEstate: 0,
+  firstPayment: 0
 };
 
 export const mortgageSlice = createSlice({

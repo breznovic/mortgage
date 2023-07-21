@@ -1,4 +1,9 @@
 .slider {
-    max-width: 800px;
-    margin: 10px 0px 10px 20px;
+  max-width: 800px;
+  margin: 10px 0px 10px 20px;
+}
+
+.maxMark {
+  position: absolute;
+  right: 0;
 }
