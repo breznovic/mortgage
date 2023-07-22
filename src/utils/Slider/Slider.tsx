@@ -26,13 +26,13 @@ const Slider = (props: PropsType) => {
         onChange={(val) => setSliderValue(val)}
       >
         <SliderMark value={2}>{props.minMarkValue}</SliderMark>
-        <SliderMark value={85}><div className={s.maxMark}>{props.maxMarkValue}</div></SliderMark>
+        <SliderMark value={95}>{props.maxMarkValue}</SliderMark>
         <SliderMark
           value={sliderValue}
           textAlign="center"
           bg="blue.500"
           color="white"
-          mt="-10"
+          mt="-8"
           ml="-5"
           w="12"
         >

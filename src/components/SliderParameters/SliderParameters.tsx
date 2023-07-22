@@ -5,11 +5,11 @@ const SliderParameters = () => {
   return (
     <>
       <div className={s.label}>Cost of real estate </div>
-      <Slider minMarkValue={600} maxMarkValue={1000}/>
+      <Slider minMarkValue={0} maxMarkValue={100}/>
       <div className={s.label}>First payment amount </div>
-      <Slider minMarkValue={60000} maxMarkValue={100000}/>
+      <Slider minMarkValue={0} maxMarkValue={100}/>
       <div className={s.label}>Loan term </div>
-      <Slider minMarkValue={6000000} maxMarkValue={100000000}/>
+      <Slider minMarkValue={0} maxMarkValue={100}/>
     </>
   );
 };

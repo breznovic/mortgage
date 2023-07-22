@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  align-items: stretch;
+  margin: 10px;
+}
+
+.placeholder {
+  margin-right: 16px;
+}
+
+.spacer {
+  flex: 1;
+}
